@@ -117,7 +117,7 @@ resource "aws_instance" "web-server" {
     ami = "ami-08c40ec9ead489470"
     instance_type = "t2.micro"
     availability_zone = "us-east-1a"
-    key_name = "test"
+    #key_name = "test"
     
     network_interface {
         device_index = 0
